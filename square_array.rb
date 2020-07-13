@@ -1,6 +1,6 @@
 def square_array(array)
   new_numbers = []
-  new_numbers <<  array.push {|number| puts "#{number * number}"}
+  new_numbers <<  array.each {|number| puts "#{number * number}"}
   
 
   
